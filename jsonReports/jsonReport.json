@@ -1,0 +1,218 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "c:/Users/Aziz Sevi/Desktop/Playwright With Typescript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "c:/Users/Aziz Sevi/Desktop/Playwright With Typescript",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/pomtest/akakce.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\playwright.config.ts",
+    "rootDir": "c:/Users/Aziz Sevi/Desktop/Playwright With Typescript",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.32.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\pomtest\\akakce.test.ts",
+      "file": "tests/pomtest/akakce.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Register Login SelectItem Tests",
+          "file": "tests/pomtest/akakce.test.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Akakce test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 14637,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-01T20:40:47.619Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Akakce-test-01\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Akakce-test-01\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c24fcd3e8fb0a1399fc-ccb07ca0955151954cdf",
+              "file": "tests/pomtest/akakce.test.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "Login test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8398,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-01T20:41:03.125Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Login-test-02\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Login-test-02\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c24fcd3e8fb0a1399fc-203c60b8f58e8011bea7",
+              "file": "tests/pomtest/akakce.test.ts",
+              "line": 33,
+              "column": 5
+            },
+            {
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12514,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-01T20:41:11.525Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Add-to-cart-test-03\\video-1.webm"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Add-to-cart-test-03\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Add-to-cart-test-03\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "c:\\Users\\Aziz Sevi\\Desktop\\Playwright With Typescript\\test-results\\tests-pomtest-akakce-Register-Login-SelectItem-Tests-Add-to-cart-test-03\\test-finished-2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c24fcd3e8fb0a1399fc-3760586bd28a40ee1dd9",
+              "file": "tests/pomtest/akakce.test.ts",
+              "line": 45,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
